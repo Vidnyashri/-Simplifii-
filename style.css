@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    background: #ececec;
+    padding: 0 20px 0 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.row{
+    width: 900px;
+    height: 550px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+.side-image{
+    background-image: url("https://lh3.googleusercontent.com/pw/AIL4fc9c4ueasB8do9qIDE3nrKgWXuxZygjNMGX9Ycai0-oh1oe2ULZCBd1xTTaR36agDiSXxXrt5C5l93HWCPSOtg_lhLM5vrxTw-9fc28R_5kk9PE7vAHlVsP-MIAUsSGAUFjQPo_EtIxR1IitJWNbrMQVTNfGFVRnphMJZgLj_GiPsUwX7juxjlm0jDGlTxTJLnpMiyc25hTKes-_IcjJT8QiJMgs2Ls1lVmotmKFSdXj7brZo7DGbreP5D9WmqvCge73_TtwE-NVS3UlVPj9Cdc458yuUnLWcLZvnVpvLQQOyvbkmQsR4CHGBGUuOm9Eoda32HwQBew158umfh8DCkfbTp9kuph87JlH-dMAe3l1CizEbGUzuQOcYshkuziN92QGrmuniLmuURuGOw_iY0WEcFzL7cLWP0S0HFbctD995CzuAVRK391FksVSRFUI8SG_mu2iZr9zkLV-Zf7l1XvIuI07AAwgIegC089tXpQlUPzxWI2FyuBnKDhIUNBcqW_lEasrh4Ta8iRWVcfCMi0i2m6dCA-XG7OcbZuqyHg9VT1zzJjvVqW6Qg_0iy5q7dRw7zlrbx3irvSMLfr48T3hjmzv3dewuBuXj0YQ-VkNB0Yrd-856piHja9hmc-J3NOrfIbb82l-hOqfzwTlFM8pTZFfuzLHKWP9RcXAjcr8di3d4KxTBkE1CHBHiCCaeiqcofmVtX39VBSJ1jPlmw0ZcyqRMdbbkj1DcwHKemL-TsOjxpJ8uZKPsI56YUIqZZYG_zLEnp4EfmBBPI-yrwOhFcYPGIi8wB63M0w_PU4XsTHbqZbjwvWmIQDLrFoVCSOo3-Ce4vYG6vbzqlXVuc_idZvc4f9Y2pf8TmdW-L9M7ZFdhuh2pco_M0JBgt_Ptaw8ocPkoMw32WEC8mlw2CmKlav2JKOE2Y5eQO_Eo9B-OFHDbY8rU0DRpKyH2XE=w438-h292-s-no?authuser=1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+width: 200px;
+    height: 550px;
+     background-color: dimgray;
+}
+img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background: dimgray;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text p{
+    color: #fff;
+    font-size: 18px;
+}
+i{
+    font-weight: 400;
+    font-size: 15px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.input-box{
+    width: 330px;
+    box-sizing: border-box;
+}
+.input-box header{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10px 0 10px;
+}
+.input{
+    height: 45px;
+    width: 100%;
+    
+    border: none;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    outline: none;
+    margin-bottom: 30px;
+    color: #40414a;
+    background:#F5F4F4;
+    border-radius: 52px;
+}
+.input-box .input-field label{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-field .input:focus ~ label{
+    top: -10px;
+    font-size: 13px;
+}
+.input-field .input:valid ~ label{
+    top: -10px;
+    font-size: 5px;
+    color: #5d5076;
+}
+.input-field .input:focus, .input-field .input:valid{
+    border-bottom: 1px solid orange;
+}
+.submit{
+    border: none;
+    outline: none;
+    height: 45px;
+    background: orange;
+    border-radius: 52px;
+    transition: .4s;
+}
+
+.submit1{
+    border: none;
+    outline: none;
+    height: 45px;
+    background:#F5F4F4;
+    border-radius: 52px;
+    transition: .4s;
+}
+
+.submit:hover{
+    background: rgba(37, 95, 156,0.9);
+    color: #fff;
+}
+.signin{
+    text-align: center;
+    font-size: small;
+    margin-top: 25px;
+}
+span a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    transition: .5s;
+}
+span a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+@media only screen and (max-width: 768px){
+    .side-image{
+        border-radius: 10px 10px 0 0;
+    }
+    img{
+        width: 35px;
+        position: absolute;
+        top: 20px;
+        left: 47%;
+    }
+    .text{
+        position: absolute;
+        top: 70%;
+        text-align: center;
+    }
+    .text p,i{
+        font-size: 17px;
+    }
+    .row{
+        max-width: 420px;
+        width: 100%;
+    }
+}
